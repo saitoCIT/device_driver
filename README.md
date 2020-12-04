@@ -14,8 +14,8 @@ Raspberry Pi及びubuntu(desktop,serverとはない)が必要
 次の環境では動作を確認
 |||
 |:---|---:|
-|機種|Raspberry Pi Model 3B|
-|OS|ubuntu mate 18.04|
+|機種|Raspberry Pi Model 4|
+|OS|ubuntu mate 20.04|
 
 ## <動作手順>
 - ビルド
