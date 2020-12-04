@@ -5,7 +5,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 
-MODULE_AUTHOR("Ueda Ryuichi & Naoya saito");
+MODULE_AUTHOR("Ueda Ryuichi & Naoya saito & Shunsuke Takami & Kenta Haruyama & Syogo Takano");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
