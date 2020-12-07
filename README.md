@@ -11,7 +11,7 @@
   - 円周率を9桁まで2進数で表現する
 
 ## 回路
-https://github.com/saitoCIT/device_driver/blob/main/kairo.jpg
+![kairo](https://user-images.githubusercontent.com/75356150/101359530-bfb36680-38df-11eb-93b7-e4adc06bda50.jpg)
   
 ## <実行環境>
 Raspberry Pi及びubuntu(desktop,serverとはない)が必要
