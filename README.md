@@ -12,6 +12,10 @@
 
 ## 回路
 ![kairo](https://user-images.githubusercontent.com/75356150/101359530-bfb36680-38df-11eb-93b7-e4adc06bda50.jpg)
+
+LEDはRaspberry PiのGPIO[22, 23, 24, 25]及びGNDに接続  
+GPIOに対応するLEDはブレッドボードの左から順にGPIO[22, 23, 24, 25]となっている  
+ブレッドボードのLEDは左から8の位, 4の位, 2の位, 1の位の値と見なす
   
 ## <実行環境>
 Raspberry Pi及びubuntu(desktop,serverとはない)が必要
