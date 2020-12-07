@@ -32,17 +32,22 @@ $sudo insmod myled.ko
 $sudo chmod 666 /dev/myled0
 ```
 - 動作
-echo x > /dev/myled0でxの値の桁数の数値を2進数で表示する. なお、キャラクタで数値を取っているため, x < 10となっている
-今回のソースコードでは, 
-```
-
+echo x > /dev/myled0でxの値の桁数の数値を2進数で表示する
+なお、キャラクタで数値を取っているため,　0 <= x < 10の整数となっている
+例えば, 
 
 ```bash:move
 $echo 1 > /dev/myled0
-$echo 2 > /dev/myled0
-$echo 3 > /dev/myled0
-$echo 4 > /dev/myled0
 ```
+と入力すると, GPIO[25, 24]に接続されたLEDが点灯する
+このとき, ブレッドボードの2の位と1の位が点灯するため, このブレッドボードは3を表示していることがわかる
+
+```bash:move
+$echo 2 > /dev/myled0
+```
+と入力すると, GPIO[25]に接続されたLEDが点灯する
+このとき, ブレッドボードの1の位が点灯するため, このブレッドボードは1を表示していることがわかる
+
 - デバイスドライバの削除
 ```bash:delate device driver
 $sudo rmmod myled
