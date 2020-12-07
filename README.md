@@ -3,12 +3,12 @@
 # ロボットシステム学
 ## robsys2020 課題1 
 ## <共同製作者>
-- ソースコード内のMODULE_AUTHORを参照
+- CIT 高野翔伍 春山健太 高見俊介
 ## 課題1 <内容>
 - <内容>
   - ledを4つ用意し, 点灯消灯を行う
 - <アピールポイント>
-  - 学籍番号が個人情報のため, 円周率を9桁まで2進数で表現する
+  - 円周率を9桁まで2進数で表現する
 
 ## 回路
 https://github.com/saitoCIT/device_driver/blob/main/kairo.jpg
@@ -32,6 +32,10 @@ $sudo insmod myled.ko
 $sudo chmod 666 /dev/myled0
 ```
 - 動作
+echo x > /dev/myled0でxの値の桁数の数値を表示する。なお、キャラクタで数値を取っているため, x < 10となっている
+今回のソースコードでは
+
+
 ```bash:move
 $echo 1 > /dev/myled0
 $echo 2 > /dev/myled0
