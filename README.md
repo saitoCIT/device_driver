@@ -32,8 +32,9 @@ $sudo insmod myled.ko
 $sudo chmod 666 /dev/myled0
 ```
 - 動作
-echo x > /dev/myled0でxの値の桁数の数値を表示する。なお、キャラクタで数値を取っているため, x < 10となっている
-今回のソースコードでは
+echo x > /dev/myled0でxの値の桁数の数値を2進数で表示する. なお、キャラクタで数値を取っているため, x < 10となっている
+今回のソースコードでは, 
+```
 
 
 ```bash:move
