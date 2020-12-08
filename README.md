@@ -61,6 +61,8 @@ $sudo rmmod myled
 - 共通点
 LEDを点灯させる部分をfor文で回す
 
+-相違点
+LEDのON/OFFで2進数表現した
 
 # 参考資料
 https://github.com/ryuichiueda/robosys_device_drivers
