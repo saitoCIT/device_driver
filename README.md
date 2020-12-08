@@ -62,7 +62,7 @@ $sudo rmmod myled
 LEDを点灯させる部分をfor文で回す
 
 -相違点
-LEDのON/OFFで2進数表現した
+LEDのON/OFFで2進数表現し, ON/OFFの書き込みの部分で円周率に対応させた
 
 # 参考資料
 https://github.com/ryuichiueda/robosys_device_drivers
