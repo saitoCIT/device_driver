@@ -57,8 +57,10 @@ $echo 2 > /dev/myled0
 $sudo rmmod myled
 ```
 
-##<共同作成者との共通点/相違点>
+## <共同作成者との共通点/相違点>
 - 共通点
+LEDを点灯させる
+
 
 # 参考資料
 https://github.com/ryuichiueda/robosys_device_drivers
